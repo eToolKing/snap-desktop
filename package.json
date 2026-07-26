@@ -1,0 +1,29 @@
+{
+  "name": "etoolking",
+  "version": "1.0.0",
+  "description": "Official Linux Desktop Application for eToolKing.",
+  "main": "main.js",
+  "author": "eToolKing",
+  "license": "MIT",
+  "scripts": {
+    "build": "electron-builder --linux snap"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^30.0.0",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "com.etoolking.app",
+    "productName": "eToolKing",
+    "linux": {
+      "target": [
+        "snap"
+      ]
+    },
+    "snap": {
+      "confinement": "strict",
+      "grade": "stable"
+    }
+  }
+}
