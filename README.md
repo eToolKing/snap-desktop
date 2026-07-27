@@ -2,7 +2,7 @@
 
 eToolKing is a lightweight, privacy-focused utility platform designed for fast daily computations, web utilities, conversions, and productivity workflows.
 
-Available as a web app, standalone micro-apps, and a desktop package for Linux.
+Available as a Progressive Web App (PWA), standalone micro-apps, and an official Linux desktop package built with Electron.
 
 ---
 
@@ -40,7 +40,11 @@ Available as a web app, standalone micro-apps, and a desktop package for Linux.
 
 ## Installation (Linux Desktop)
 
-Install the official eToolKing package via Snapcraft:
+Install the official package directly via the **[Snap Store](https://snapcraft.io/etoolking)**.
+
+[![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://snapcraft.io/etoolking)
+
+Or run the terminal command below:
 
 ```bash
 sudo snap install etoolking
